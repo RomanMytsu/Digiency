@@ -3,12 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/root.css" />
 
-    <title>Document</title>
+    <title>Digiency</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-logo-link" href="/index.html">
+            Digi<span class="logo-color">ency</span>
+          </a>
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">About Us</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">Our Work</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">Clients</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">Our Blog</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="open-menu-btn" type="button">
+          <svg width="24" height="24" class="open-menu-icons">
+            <use href="/images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="mob-menu" id="mob-menu">
+        <div class="mob-menu-wrap">
+          <button class="close-menu-btn" type="button">
+            <svg width="24" height="24" class="close-menu-icons">
+              <use href="/images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="/index.html">Home</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">About Us</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">Our Work</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">Clients</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">Our Blog</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <script src="/js/mob-menu.js"></script>
   </body>
 </html>
