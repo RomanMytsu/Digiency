@@ -142,12 +142,14 @@
   line-height: 1.506;
   color: #7b7b7b;
   max-width: 323px;
+  text-align: center;
 }
 .about-text-botom {
   margin-top: 15px;
   line-height: 1.506;
   color: #7b7b7b;
   max-width: 323px;
+  text-align: center;
 }
 .about-icons-wrap {
   display: flex;
@@ -195,4 +197,50 @@
   font-size: 20px;
   line-height: 1.236;
   margin-top: 37px;
+}
+/*Our Experience  */
+.expereince {
+  padding-bottom: 50px;
+}
+.expereince-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.expereince-title {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.236;
+  text-align: center;
+  margin-bottom: 18px;
+  max-width: 255px;
+}
+.expereince-title-color {
+  color: #ff5300;
+}
+.expereinnce-card-list {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.expereinnce-card-item {
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 71px 68px;
+}
+.expereinnce-card-title {
+  font-size: 48px;
+  line-height: 1.236;
+  text-transform: capitalize;
+  text-align: center;
+}
+.expereinnce-card-text {
+  font-size: 25px;
+  line-height: 1.236;
+  color: #7b7b7b;
+  text-align: center;
+  white-space: nowrap;
 }
