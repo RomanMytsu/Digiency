@@ -219,6 +219,12 @@
 .expereince-title-color {
   color: #ff5300;
 }
+.expereince-card-wrap {
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .expereinnce-card-list {
   display: flex;
   gap: 25px;
@@ -243,4 +249,34 @@
   color: #7b7b7b;
   text-align: center;
   white-space: nowrap;
+}
+/* Team */
+.team {
+  padding-bottom: 50px;
+}
+.team-container {
+}
+.team-title {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.236;
+  text-align: center;
+  color: #373737;
+  margin-bottom: 18px;
+}
+.team-title-color {
+  color: #ff5300;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+}
+.team-link {
+  display: block;
+}
+.team-cover-block {
+  position: relative;
+  overflow: hidden;
 }
